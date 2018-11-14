@@ -1,0 +1,7 @@
+.idea/*
+node_modules/*
+bin/*
+pkg/*
+src/github.com/*
+killme/*
+
