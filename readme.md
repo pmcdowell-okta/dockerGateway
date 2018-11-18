@@ -1,1 +1,29 @@
-# 
+# Dockergate
+
+ ![Dockergate](./images/dockergate.png)
+ 
+
+### What is Dockergate
+
+DockerGate is a Docker Image with an Nginx Router,
+that will route traffic to a Serverless Framework
+API Gateway and a Node.js Server.
+
+### Why do I want this
+
+Dockergate allows you to simulate a Cloud IAAS
+easily. 
+
+### How do I run this
+
+### Technicals
+
+Dockergate sends traffic to Nginx which is running
+on port 3000. All traffic is routed to the Node.js
+Server, except for request that begin with 
+/apigateway , this traffic is routed to the 
+Serverless Framework.
+
+You can test the Node.js Application directly
+by hitting port 3001, and the Serverless Framework
+API Gateway is running on port 3002
