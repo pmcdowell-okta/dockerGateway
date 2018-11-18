@@ -12,7 +12,7 @@ run:
 	cp ./nginx.conf /etc/nginx/nginx.conf
 	service nginx start
 	sls offline start --port 3002 &
-	node webserver/index.js &
+	node webserver/index.js 
 
 clean:
 	find . -name "node_modules" -type d -exec rm -rf '{}' +
