@@ -16,6 +16,10 @@ easily.
 
 ### How do I run this
 
+Easy !
+
+`docker run -it -p 3000:3000  -e github="https://github.com/pmcdowell-okta/dockerGateway.git"  oktaadmin/dockergate`
+
 ### Technicals
 
 Dockergate sends traffic to Nginx which is running
