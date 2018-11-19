@@ -31,3 +31,13 @@ Serverless Framework.
 You can test the Node.js Application directly
 by hitting port 3001, and the Serverless Framework
 API Gateway is running on port 3002
+
+### Tuning
+
+You can change port(s) and URL(s) to your liking. 
+
+Nginx configurations can be made from the [./nginx.conf](./nginx.conf)
+file.
+
+The Serverless Framework Offline Gateway ports can be changed in the [Makefile](./Makefile)
+
